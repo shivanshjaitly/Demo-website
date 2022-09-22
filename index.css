@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./images/download1.jpg");
+  color: white;
+  font-family: "Baloo Paaji 2", cursive;
+}
+
+.left {
+  display: inline-block;
+  left: 34px;
+  top: 20px;
+  position: absolute;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.left img {
+  width: 50px;
+}
+
+.left div {
+  text-align: center;
+}
+
+.mid {
+  display: block;
+  width: 36%;
+  margin: 17px auto;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: red;
+  text-decoration: underline;
+}
+
+.btn {
+  margin: 0px 3px;
+  padding: 4px 2px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Baloo Paaji 2", cursive;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+.container {
+  margin: 40px 50px;
+  padding: 60px;
+  border: 2px solid;
+  border-radius: 25px;
+  width: 33%;
+  height: 20%;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 400px;
+  padding: 6px;
+}
+
+.inputbtn {
+  margin-top: 10px;
+  width: 75px;
+}
